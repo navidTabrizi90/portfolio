@@ -28759,7 +28759,7 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
-        title: "10 Things To Know About Azure Static Web Apps \uD83C\uDF89",
+        title: "10 Things To Know About Azure\uD83C\uDF89",
         description: "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
         url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
     },
@@ -28811,7 +28811,8 @@ const Portfolio = ()=>{
                             style: {
                                 height: "90%",
                                 width: "100%",
-                                objectFit: "cover"
+                                objectFit: "cover",
+                                animation: "1s ease-out 0s 1 slideIn"
                             },
                             alt: imageAltText
                         }, void 0, false, {
